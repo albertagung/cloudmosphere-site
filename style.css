@@ -211,37 +211,37 @@ body, html {
     
     .section1 p {
         margin-left: 10px;
-        font-size: 10px;
+        font-size: 12px;
         transition: 0.35s;
     }
     
      .section2 p {
         margin-left: 10px;
-        font-size: 10px;
+        font-size: 12px;
         transition: 0.35s;
     }
     
      .section3 p {
         margin-left: 10px;
-        font-size: 10px;
+        font-size: 12px;
         transition: 0.35s;
     }
     
     .section1 h3 {
         margin-left: 10px;
-        font-size: 12px;
+        font-size: 15px;
         transition: 0.35s;
     }
 
     .section2 h3 {
         margin-left: 10px;
-        font-size: 12px;
+        font-size: 15px;
         transition: 0.35s;
     }
     
     .section3 h3 {
         margin-left: 10px;
-        font-size: 12px;
+        font-size: 15px;
         transition: 0.35s;
     }
     
