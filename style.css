@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    line-height: 0.7em;
+}
+
+/* Navbar */
+
+.nav a, li, ul {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 650;
+}
+
+.nav ul {
+    margin-right: 30px;
+    text-align: right;
+    float: right;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 10px 7px;
+}
+
+.nav a:hover {
+    font-size: 20px;
+    color: white;
+    transition: 0.4s;
+}
+
+/* Header */
+
+.header-img {
+   background-color:  #404040;
+   background-size: cover;
+   height: 100%;
+   min-height: 100%;
+   width: 100%;
+   min-width: 100%;
+}
+
+/* Section1 */
+
+.section1 {
+  float: left;
+  background-color: gray;
+  height: 100%;
+  min-height: 100%;
+  width: 33.33%;
+}
+
+.section1 div {
+  margin-top: 50px;
+}
+
+.section1 p {
+  margin-left: 30px;
+  transition: 0.35s;
+}
+
+.section1 h3 {
+  margin-left: 30px;
+  transition: 0.35s;
+}
+
+.section1 .bottom-text {
+  margin-top: 400px;
+
+}
+
+/* Section2 */
+
+.section2 {
+  float: left;
+  background-color: dimgray;
+  height: 100%;
+  min-height: 100%;
+  width: 33.33%;
+}
+
+.section2 div {
+  margin-top: 50px;
+}
+
+.section2 p {
+  margin-left: 30px;
+  transition: 0.35s;
+}
+
+.section2 h3 {
+  margin-left: 30px;
+  transition: 0.35s;
+}
+
+.section2 .bottom-text {
+  margin-top: 400px;
+}
+
+/* Section3 */
+
+.section3 {
+  float: left;
+  background-color: darkgray;
+  height: 100%;
+  min-height: 100%;
+  width: 33.33%;
+}
+
+.section3 div {
+  margin-top: 50px;
+}
+
+.section3 p {
+  margin-left: 30px;
+  transition: 0.35;
+}
+
+.section3 h3 {
+  margin-left: 30px;
+  transition: 0.35s;
+}
+
+.section3 .bottom-text {
+  margin-top: 400px;
+}
+
+.bottom-line {
+  position: relative;
+  margin: auto;
+  margin-left: 30px;
+  width: 10px;
+  height: 2px;
+  background-color: black;
+  transition: width 0.4s;
+}
+
+/* Transition Settings */
+
+.section1:hover {
+  font-size: 20px;
+  color: white;
+  transition: 0.35px;
+}
+
+.section1:hover .bottom-line {
+  width: 300px;
+  transition: 0.4s;
+  background-color: white;
+}
+
+.section2:hover {
+  font-size: 20px;
+  color: white;
+  transition: 0.35px;
+}
+
+.section2:hover .bottom-line {
+  width: 300px;
+  transition: 0.4s;
+  background-color: white;
+}
+
+.section3:hover {
+  font-size: 20px;
+  color: white;
+  transition: 0.35px;
+}
+
+.section3:hover .bottom-line {
+  width: 300px;
+  transition: 0.4s;
+  background-color: white;
+}
