@@ -12,6 +12,7 @@ body, html {
 [class*="col-"] {
     float: left;
     padding: 15px;
+    height: 100%;
 }
 
 /* Navbar */
@@ -36,12 +37,15 @@ body, html {
 }
 
 .nav a:hover {
-    font-size: 20px;
     color: white;
     transition: 0.4s;
 }
 
 /* Header */
+
+.row {
+    height: 100%;
+}
 
 .header-img {
        background-color:  #c2c2a3;
@@ -75,7 +79,6 @@ body, html {
 
 .section1 .bottom-text {
   margin-top: 400px;
-
 }
 
 /* Section2 */
@@ -145,8 +148,9 @@ body, html {
 /* Transition Settings */
 
 .section1:hover {
-  color: white;
-  transition: 0.35px;
+    font-size: 20px;
+    color: white;
+    transition: 0.35px;
 }
 
 .section1:hover .bottom-line {
@@ -156,6 +160,7 @@ body, html {
 }
 
 .section2:hover {
+    font-size: 20px;
   color: white;
   transition: 0.35px;
 }
@@ -167,6 +172,7 @@ body, html {
 }
 
 .section3:hover {
+    font-size: 20px;
   color: white;
   transition: 0.35px;
 }
@@ -259,12 +265,19 @@ body, html {
         transition: 0.35s;
     }
     
-    .bottom-text {
-      margin-top: 200px;
+    .section1 .bottom-text {
+      margin-top: 420px;
+    }
+    
+    .section2 .bottom-text {
+      margin-top: 420px;
+    }
+    
+    .section3 .bottom-text {
+      margin-top: 420px;
     }
     
     .bottom-line {
-          display: none;
           position: relative;
           margin: auto;
           margin-left: 10px;
