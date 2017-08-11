@@ -235,7 +235,7 @@ body, html {
     .header-logo {
         float: left;
         text-align: center;
-        padding-left: 30%;
+        padding-left: 33.33%;
         padding-top: 10px;
         font-size: 25px;
     }
@@ -248,7 +248,7 @@ body, html {
     }
     
     .nav li {
-        padding-left: 3px;
+        padding-left: 6px;
     }
     
     .section1 div {
