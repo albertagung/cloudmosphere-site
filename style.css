@@ -197,6 +197,20 @@ body, html {
         width: 100%;
     }
     
+    .nav a, li, ul {
+        font-size: 12px;
+    }
+    
+    .nav ul {
+        margin-right: 10px;
+    }
+    
+    .nav a:hover {
+        font-size: 12px;
+        color: white;
+        transition: 0.34s;
+    }
+    
     .section1 div {
         margin-top: 30px;
     }
