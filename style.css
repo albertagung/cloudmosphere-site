@@ -317,18 +317,11 @@ body, html {
         transition: 0.35s;
     }
     
-    .section1 .bottom-text {
-        margin-top: 470px;
+    .bottom-text {
+        display: none;
     }
     
-    .section2 .bottom-text {
-      margin-top: 470px;
-    }
-    
-    .section3 .bottom-text {
-      margin-top: 470px;
-    }
-    
+
     .bottom-line {
           display: none;
           position: relative;
