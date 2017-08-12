@@ -70,6 +70,14 @@ body, html {
     text-align: center;
 }
 
+.text-box {
+    background-color: white;
+    position: absolute;
+    float: left;
+    left: 45%;
+    text-align: center;
+}
+
 /* Section1 */
 
 .section1 {
@@ -313,6 +321,7 @@ body, html {
     }
     
     .bottom-line {
+          display: none;
           position: relative;
           margin: auto;
           margin-left: 10px;
