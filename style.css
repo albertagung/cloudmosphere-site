@@ -65,17 +65,16 @@ body, html {
 .header-text {
     position: absolute;
     width: 100%;
-    min-width: 100%;
     top: 50%;
     text-align: center;
 }
 
 .text-box {
     background-color: white;
+    border-radius: 50px;
     position: absolute;
     width: 180px;
     left: 45%;
-    right: 20%;
     text-align: center;
 }
 
@@ -238,7 +237,6 @@ body, html {
     .nav a:hover {
         font-size: 12px;
         color: white;
-        transition: 0.34s;
     }
     
     .header-logo {
