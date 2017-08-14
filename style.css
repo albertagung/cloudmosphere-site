@@ -11,7 +11,6 @@ body, html {
 
 [class*="col-"] {
     float: left;
-    height: 100%;
 }
 
 /* Navbar */
@@ -50,9 +49,7 @@ body, html {
     font-size: 25px;
 }
 
-.row {
-    height: 100%;
-}
+
 
 .header-img {
        background-color:  #c2c2a3;
@@ -80,13 +77,9 @@ body, html {
 
 /* Section1 */
 
-.col-4 {
-    height: 100%;    
-}
-
 .section1 {
   background-color: gray;
-  height: 100%;
+  height: 650px;
   width: 33.33%;
 }
 
@@ -112,7 +105,7 @@ body, html {
 
 .section2 {
   background-color: dimgray;
-  height: 100%;
+  height: 650px;
   min-height: 100%;
   width: 33.33%;
 }
@@ -139,7 +132,7 @@ body, html {
 
 .section3 {
   background-color: darkgray;
-  height: 100%;
+  height: 650px;
   min-height: 100%;
   width: 33.33%;
 }
