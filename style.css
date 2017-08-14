@@ -80,6 +80,10 @@ body, html {
 
 /* Section1 */
 
+.col-4 {
+    height: 100%;    
+}
+
 .section1 {
   background-color: gray;
   height: 100%;
